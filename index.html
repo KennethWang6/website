@@ -28,6 +28,11 @@
       section {
         height: 90vh; /*temp for testing*/
       }
+      @media (max-width: 768px) {
+        .computeronly {
+          display: none;
+        }
+      }
 
       /* Stuff in the topbar */
       #topBar {
@@ -95,9 +100,9 @@
         <br>
         Email: <a href="Kennethwang6@gmail.com">email</a>
         <br>
-        Cell:
+        Cell: 514-907-0088
       </div>
-      <h1 id="name">Kenneth Wang</h1>
+      <h1 id="name" class="computeronly">Kenneth Wang</h1>
       <button class="cvbtn" id="mastercv" onclick="window.open('docs/', '_blank')">Master CV to add</button> <!-- to add file -->
       <button class='cvbtn' id="cv" onclick="window.open('docs/cv Kenneth Wang.pdf', '_blank')">CV</button>
    </div>
