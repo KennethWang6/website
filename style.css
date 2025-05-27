@@ -43,9 +43,13 @@ color: rgb(247, 60, 247);             /* When clicked */
     top: 0;
     left: 0;
     background-color: rgb(135, 152, 169);
-    width: 200px;
+    width: 12%;
     height: 100%;
     z-index: 5;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* center horizontally */
 }
 
 #topBar {
@@ -102,16 +106,16 @@ border-color: rgb(243, 243, 247);
 cursor: pointer;
 }
 #cv {
-top: 20px;
-right: 1380px;
+top: 20%;
+right: 91.25%;
 }
 
 
 
 .switch {
-top: 620px;
-position: relative;
-display: inline-block;
+top: 90%;
+right: 35%;
+position: absolute;
 width: 50px;
 height: 24px;
 }
