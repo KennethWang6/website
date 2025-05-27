@@ -32,9 +32,9 @@
 
    <div id="topBar">
       <div id="contactinfo">
-        Email: <span class="copytext" onclick="copytoclipboard(this)">Kenneth.wang@mail.mcgill.ca</span>
+        <span class="copytext" onclick="copytoclipboard(this)">Kenneth.wang@mail.mcgill.ca</span>
         <br>
-        Cell: <span class="copytext" onclick="copytoclipboard(this)">514-907-0088</span>
+        <span class="copytext" onclick="copytoclipboard(this)">514-907-0088</span>
         <br>
         <a href="http://www.linkedin.com/in/kennethwang6" target="_blank">LinkedIn</a>
       </div>
@@ -44,16 +44,17 @@
 
 
 
-      <label class="switch" >
+      <button class='cvbtn' id="cv" onclick="window.open('docs/cv Kenneth Wang.pdf', '_blank')">CV</button>
+   </div>
+
+<div id="leftbar">
+  <label class="switch" >
       <input type="checkbox" id="modeToggle" onchange="toggleMode()" />
       <span class="slider"></span>
       </label>
 
+  </div>
 
-
-      <button class='cvbtn' id="cv" onclick="window.open('docs/cv Kenneth Wang.pdf', '_blank')">CV</button>
-   </div>
-  
 
   <section>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
