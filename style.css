@@ -8,7 +8,7 @@ color: rgb(255, 255, 255);
 text-align: center;
 }
 section {
-height: 60vh; /*temp for testing*/
+height: 80vh; /*temp for testing*/
 }
 @media (max-width: 768px) {
 .computeronly {
@@ -36,7 +36,7 @@ color: rgb(247, 60, 247);             /* When clicked */
 
 #topBar {
 position: fixed;
-background-color: rgb(36 60 76);
+background-color: rgb(92, 126, 143);
 top:0;
 left:0;
 width: 100%;
