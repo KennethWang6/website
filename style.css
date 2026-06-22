@@ -40,8 +40,8 @@ color: rgb(247, 60, 247);             /* When clicked */
 position: fixed;
 background-color: rgb(235 227 213);
 top:0;
-left:0;
-width: 100%;
+right:0;
+width: 20%;
 height: 150px;
 font-size: 30px;
 transition: transform 1.2s ease;
