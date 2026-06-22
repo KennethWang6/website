@@ -63,7 +63,7 @@ transform: translateY(-100%);
     display: flex;
     position: fixed; 
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-70%);
     gap: 30%;
     top: 45px;
 }
