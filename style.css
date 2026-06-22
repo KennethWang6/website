@@ -62,9 +62,9 @@ transform: translateY(-100%);
 #topbarmenu {
     display: flex;
     position: fixed; 
-    justify-content: center;
+    text-align: center;
     gap: 30px;
-    top: 10px;
+    top: 20px;
 }
 
 #contactinfo {
