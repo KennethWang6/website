@@ -91,6 +91,8 @@ color: rgb(247, 60, 247);
 #name {
 text-align: center;
 }
+
+/* cv button style */
 .cvbtn {
 background-color: rgb(2, 37, 2);
 width: 2cm;
@@ -158,7 +160,9 @@ input:checked + .slider::before {
 transform: translateX(26px);
 }
 
+/* picture style */
 .picture {
     width: 20%;
-    height: 20%;
+    height: auto;
+    border-radius: 20px;
 }
