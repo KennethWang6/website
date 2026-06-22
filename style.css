@@ -37,21 +37,6 @@ color: rgb(247, 60, 247);             /* When clicked */
 }
 
 
-/* Stuff in the topbar */
-#leftbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgb(135, 152, 169);
-    width: 12%;
-    height: 100%;
-    z-index: 5;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* center horizontally */
-}
-
 #topBar {
 position: fixed;
 background-color: rgb(20, 36, 52);
@@ -114,7 +99,7 @@ left: 23px;
 }
 
 
-
+/*
 .switch {
 top: 90%;
 right: 35%;
@@ -129,7 +114,8 @@ width: 0;
 height: 0;
 }
 
-/* The slider background */
+
+ The slider background, deleted 
 .slider {
 position: absolute;
 cursor: pointer;
@@ -139,7 +125,7 @@ transition: 0.4s;
 border-radius: 24px;
 }
 
-/* The circle inside */
+ The circle inside, deleted
 .slider::before {
 position: absolute;
 content: "";
@@ -152,7 +138,7 @@ transition: 0.4s;
 border-radius: 50%;
 }
 
-/* When checked */
+ When checked, deleted 
 input:checked + .slider {
 background-color: #172a17;
 }
@@ -160,6 +146,7 @@ background-color: #172a17;
 input:checked + .slider::before {
 transform: translateX(26px);
 }
+*/
 
 /* picture style */
 .picture {
