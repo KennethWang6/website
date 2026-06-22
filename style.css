@@ -10,7 +10,7 @@ font-size: 20px;
 padding-left: 30%;
 }
 section {
-height: 80vh; /*temp for testing*/
+height: 100vh; /*temp for testing*/
 }
 @media (max-width: 768px) {
 .computeronly {
@@ -38,7 +38,7 @@ color: rgb(247, 60, 247);             /* When clicked */
 
 #topBar {
 position: fixed;
-background-color: rgb(92, 126, 143);
+background-color: rgb(235 227 213);
 top:0;
 left:0;
 width: 100%;
