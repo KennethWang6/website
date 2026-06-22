@@ -41,7 +41,7 @@ position: fixed;
 background-color: rgb(235 227 213);
 top:0;
 right:0;
-width: 20%;
+width: 100%;
 height: 150px;
 font-size: 30px;
 transition: transform 1.2s ease;
@@ -51,9 +51,20 @@ z-index: 10;
 #topBar.hide {
 transform: translateY(-100%);
 }
-#topBar.night {
-background-color: aliceblue;
+
+#nametopbar {
+    text-align: left;
+    padding-left: 5%;
 }
+
+#topbarmenu {
+    display: flex;
+    justify-content: center;   /* center items horizontally */
+    align-items: center;       /* center vertically */
+    gap: 30px;                 /* space between items */
+    padding: 15px;
+}
+
 #contactinfo {
 position: fixed; 
 right: 30px;
@@ -62,6 +73,9 @@ line-height: 1.4;
 text-align: right;
 font-size: 17px;
 }
+
+
+
 .copytext {
 text-decoration: underline;
 cursor: pointer;
