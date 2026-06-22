@@ -54,7 +54,7 @@ transform: translateY(-100%);
 
 #nametopbar {
     text-align: left;
-    padding-left: 5%;
+    padding-left: 1%;
 }
 
 #topbarmenu {
@@ -62,16 +62,16 @@ transform: translateY(-100%);
     justify-content: center;   /* center items horizontally */
     align-items: center;       /* center vertically */
     gap: 30px;                 /* space between items */
-    padding: 15px;
 }
 
 #contactinfo {
-position: fixed; 
-right: 30px;
-top: 14px;
-line-height: 1.4;
-text-align: right;
-font-size: 17px;
+    display: flex;
+    position: fixed; 
+    right: 30px;
+    top: 14px;
+    line-height: 1.4;
+    text-align: right;
+    font-size: 17px;
 }
 
 
