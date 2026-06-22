@@ -5,8 +5,9 @@
 body {
 background-color: rgb(92, 126, 143);
 color: rgb(255, 255, 255);
-text-align: center;
+text-align: left;
 font-size: 20px;
+padding-left: 30%;
 }
 section {
 height: 80vh; /*temp for testing*/
@@ -152,4 +153,8 @@ transform: translateX(26px);
     width: 20%;
     height: auto;
     border-radius: 20px;
+}
+
+#intro {
+
 }
