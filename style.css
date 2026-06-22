@@ -61,7 +61,6 @@ transform: translateY(-100%);
 
 #topbarmenu {
     display: flex;
-    justify-content: center;   /* center items horizontally */
     gap: 30px;                 /* space between items */
 }
 
