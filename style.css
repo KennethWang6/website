@@ -61,6 +61,7 @@ transform: translateY(-100%);
 
 #topbarmenu {
     display: flex;
+    position: fixed; 
     gap: 30px;                 /* space between items */
     top: 10px;
     font-size: 10px;
