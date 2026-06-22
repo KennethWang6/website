@@ -56,12 +56,14 @@ transform: translateY(-100%);
     text-align: left;
     padding-left: 1%;
     font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #topbarmenu {
     display: flex;
     justify-content: center;   /* center items horizontally */
     gap: 30px;                 /* space between items */
+    top: 20px;
 }
 
 #contactinfo {
@@ -72,6 +74,7 @@ transform: translateY(-100%);
     line-height: 1.4;
     text-align: right;
     font-size: 17px;
+    gap: 30px; 
 }
 
 
