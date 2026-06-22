@@ -92,6 +92,7 @@ color: rgb(247, 60, 247);
 text-align: center;
 }
 
+
 /* cv button style */
 .cvbtn {
 background-color: rgb(2, 37, 2);
@@ -109,7 +110,7 @@ cursor: pointer;
 }
 #cv {
 top: 20%;
-right: 91.25%;
+right: 96.25%;
 }
 
 
