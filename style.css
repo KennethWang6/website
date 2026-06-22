@@ -55,12 +55,12 @@ transform: translateY(-100%);
 #nametopbar {
     text-align: left;
     padding-left: 1%;
+    font-size: 40px;
 }
 
 #topbarmenu {
     display: flex;
     justify-content: center;   /* center items horizontally */
-    align-items: center;       /* center vertically */
     gap: 30px;                 /* space between items */
 }
 
