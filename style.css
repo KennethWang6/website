@@ -26,13 +26,13 @@ a {
 color: rgb(255, 255, 255);       /* Normal (unvisited) link */
 }
 a:visited {
-color: gray;            /* Visited link */
+color: rgb(167 146 119);            /* Visited link */
 }
 a:hover {
 color: rgb(92, 126, 143);          /* When hovered over */
 }
 a:active {
-color: rgb(247, 60, 247);             /* When clicked */
+color: rgb(210, 141, 73);             /* When clicked */
 }
 
 
@@ -96,7 +96,7 @@ transform: translateY(-100%);
 }
 
 .contact-btn:hover img {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 
