@@ -55,7 +55,7 @@ transform: translateY(-100%);
 #nametopbar {
     text-align: left;
     padding-left: 2%;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -63,6 +63,7 @@ transform: translateY(-100%);
     display: flex;
     gap: 30px;                 /* space between items */
     top: 10px;
+    font-size: 10px;
 }
 
 #contactinfo {
