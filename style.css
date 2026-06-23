@@ -225,6 +225,32 @@ font-size: 60px;
     border-radius: 10px;
 }
 
+.playlist-card {
+    position: relative;
+    display: inline-block;
+    width: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.playlist-card img {
+    width: 100%;
+    display: block;
+}
+
+.playlist-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
 
 
 /* 
