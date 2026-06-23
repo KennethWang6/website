@@ -99,7 +99,7 @@ transform: translateY(-100%);
   transform: scale(1.2);
 }
 
-.side-images img {
+.side-images {
     position: fixed; 
     right: 30px;
     top: 30px;
