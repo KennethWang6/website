@@ -169,12 +169,12 @@ transform: translateY(-100%);
 }
 
 .gallery-grid {
-    column-count: 3;
+    column-count: 4;
     column-gap: 15px;
 }
 
 .gallery-grid img {
-    width: 50%;
+    width: 80%;
     margin-bottom: 15px;
     border-radius: 8px;
 }
