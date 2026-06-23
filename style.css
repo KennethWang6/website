@@ -174,7 +174,7 @@ transform: translateY(-100%);
 }
 
 .gallery-grid img {
-    width: 80%;
+    width: 100%;
     margin-bottom: 15px;
     border-radius: 8px;
 }
