@@ -111,7 +111,7 @@ transform: translateY(-100%);
 
 .side-images {
     position: absolute; 
-    right: 230px;
+    left: -130px;
     top: 50px;
 }
 
