@@ -99,6 +99,12 @@ transform: translateY(-100%);
   transform: scale(1.2);
 }
 
+.side-images img {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
 
 
 .copytext {
