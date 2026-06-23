@@ -129,6 +129,19 @@ transform: translateY(-100%);
     border-top: 1px solid rgba(0,0,0,0.15);
 }
 
+.job-header {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* space between logo and text */
+    margin-bottom: 10px;
+}
+
+.company-logo {
+    width: 50px;      /* adjust size */
+    height: auto;
+    object-fit: contain;
+}
+
 .job h3 {
     margin: 0;
     font-size: 22px;
@@ -150,7 +163,7 @@ transform: translateY(-100%);
 .job li {
     margin-bottom: 8px;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 
