@@ -111,7 +111,7 @@ transform: translateY(-100%);
 
 .side-images {
     position: absolute; 
-    left: -130px;
+    left: -290px;
     top: 50px;
 }
 
@@ -122,6 +122,35 @@ transform: translateY(-100%);
 .content {
     position: relative;
 }
+
+.job {
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.job .date,
+.job .location {
+    display: block;
+    font-size: 14px;
+    color: #666;
+}
+
+.job ul {
+    margin-top: 12px;
+    padding-left: 20px;
+}
+
+.job li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
 
 
 
