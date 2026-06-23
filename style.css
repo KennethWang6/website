@@ -210,13 +210,11 @@ font-size: 60px;
 
 
 /* video editing */
-.video-wrapper,
-.playlist-wrapper {
+.video-wrapper {
     margin-bottom: 40px;
 }
 
-.video-wrapper iframe,
-.playlist-wrapper iframe {
+.video-wrapper iframe {
     width: 100%;
     max-width: 800px;
     height: 450px;
