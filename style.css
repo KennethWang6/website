@@ -8,10 +8,11 @@ color: rgb(0, 0, 0);
 text-align: left;
 font-size: 20px;
 padding-left: 30%;
+padding-right: 15%;
 
 }
 section {
-height: 100vh; /*temp for testing*/
+height: auto; /*temp for testing*/
 }
 section::before {
   content: "";
@@ -172,7 +173,7 @@ transform: translateY(-100%);
 }
 
 .gallery-grid img {
-    width: 100%;
+    width: 50%;
     margin-bottom: 15px;
     border-radius: 8px;
 }
