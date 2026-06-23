@@ -105,6 +105,10 @@ transform: translateY(-100%);
     top: 30px;
 }
 
+.tilt {
+    transform: rotate(15deg);
+}
+
 
 
 .copytext {
