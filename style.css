@@ -2,6 +2,11 @@
 /* css */
 
 /* Main event type shit */
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 background-color: rgb(235 227 213);
 color: rgb(0, 0, 0);
