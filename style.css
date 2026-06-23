@@ -100,9 +100,9 @@ transform: translateY(-100%);
 }
 
 .side-images img {
-    position: absolute;
-    left: 20px;
-    top: 20px;
+    position: fixed; 
+    right: 30px;
+    top: 30px;
 }
 
 
