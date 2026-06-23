@@ -13,6 +13,7 @@ padding-right: 15%;
 }
 section {
 height: auto; /*temp for testing*/
+min-height: 100vh;
 }
 section::before {
   content: "";
