@@ -110,7 +110,7 @@ transform: translateY(-100%);
 }
 
 .side-images {
-    position: relative; 
+    position: absolute; 
     right: 230px;
     top: 50px;
 }
@@ -118,6 +118,11 @@ transform: translateY(-100%);
 .tilt {
     transform: rotate(15deg);
 }
+
+.content {
+    position: relative;
+}
+
 
 
 
