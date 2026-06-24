@@ -16,7 +16,8 @@ if (currentScroll > lastScrollTop) {
 lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
 });
 
-// copy text (used on contact)
+
+/* copy text (used on contact)
 function copytoclipboard(element) {
 const text = element.innerText;
 navigator.clipboard.writeText(text)
@@ -32,10 +33,9 @@ navigator.clipboard.writeText(text)
     alert("Failed to copy");
     });
 }
+*/
 
-
-
-
+/* night mode
 function toggleMode() {
 const checkbox = document.getElementById("modeToggle");
 const topBar = document.getElementById('topBar')
@@ -50,3 +50,4 @@ if (checkbox.checked) {
     document.body.style.color = "#000";
 }
 }
+*/
